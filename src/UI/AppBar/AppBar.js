@@ -32,7 +32,7 @@ export default function ButtonAppBar() {
           </Typography>
           <Link
             className={classes.link}
-            href="https://github.com/ma-9/QRCodeGenerator"
+            href="https://github.com/ma-9/QRCodeGenerator#qr-code-generator-using-react--material-ui"
             target="_blank"
           >
             <Button color="inherit">
