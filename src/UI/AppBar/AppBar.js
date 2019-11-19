@@ -4,19 +4,19 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import GitHubIcon from '@material-ui/icons/GitHub';
-import Link from '@material-ui/core/Link';
+import GitHubIcon from "@material-ui/icons/GitHub";
+import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    textAlign: 'center'
+    textAlign: "center"
   },
   title: {
     flexGrow: 1
   },
   link: {
-      color: 'white'
+    color: "white"
   }
 }));
 
@@ -30,14 +30,21 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             QRCode Generator
           </Typography>
-          <Button color="inherit">
-            <Link className={classes.link} href="https://github.com/ma-9" target="_blank">
-            <GitHubIcon />
-            </Link>
-          </Button>
+          <Link
+            className={classes.link}
+            href="https://github.com/ma-9/QRCodeGenerator"
+            target="_blank"
+          >
+            <Button color="inherit">
+              <GitHubIcon />
+            </Button>
+          </Link>
         </Toolbar>
       </AppBar>
-      <br/><br/><br/><br/><br/><br/>
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
