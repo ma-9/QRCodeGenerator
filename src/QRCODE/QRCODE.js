@@ -8,7 +8,7 @@ import "./QRCODE.css";
 class QRCODE extends Component {
   state = {
     val:
-      "https://firebasestorage.googleapis.com/v0/b/mydocs-9999.appspot.com/o/Avtaar.png?alt=media&token=3a63a9a2-d59d-4851-8a14-5cba564e6503"
+      "https://wa.me/919662260013?text=Hey,%20Manav%20We%20are%20using%20your%20QRCode%20Service"
   };
   handleQrCode = e => {
     if (e.target.value !== "") {
